@@ -1,0 +1,7 @@
+i = 1
+while (True):
+    hoge = input()
+    if(hoge == '0'):
+        break
+    print("Case {}: {}".format(i, hoge));
+    i += 1;
